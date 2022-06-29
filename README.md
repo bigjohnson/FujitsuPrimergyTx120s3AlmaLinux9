@@ -1,6 +1,10 @@
 # FujitsuPrimergyTx120s3AlmaLinux9
 Note on Alma Linux 9 installation on **Fujitsu Primergy TX120 S3** server.
 
+## Raid
+
+From bios raid utility create a virtual disk and make it bootable.
+
 ## Graphics card
 
 The video card resolution is not detectable by installer linux kernel, during installation, and installed linux kernel, at the installation end.
