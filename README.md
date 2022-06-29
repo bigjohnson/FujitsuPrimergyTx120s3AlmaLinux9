@@ -7,21 +7,21 @@ The video card resolution is not detectable by installer linux kernel and instal
 
 You need add
 
-vga=791
+`vga=791`
 
 at the end of installer kernel parameters, you can edit it pressing tab key at the bootloader installer menu.
 
 After installation you cannot use the video, you must have ssh access to the server an add the
 
-vga=791
+`vga=791`
 
 in file
 
-/etc/default/grub
+`/etc/default/grub`
 
 on the
 
-GRUB_CMDLINE_LINUX="vga=791"
+`GRUB_CMDLINE_LINUX="vga=791"`
 
 parameter end.
 
@@ -31,12 +31,12 @@ Download the ServerView_RAID installer for Red Hat 8 el8.x86_64
 
 install the init scripts
 
-dnf install initscripts
+`dnf install initscripts`
 
 install the pciutils
 
-dnf install pciutils
+`dnf install pciutils`
 
 then you can install the ServerView Raid Manager
 
-rpm -Uvh ServerView_RAID-7.9-1.el8.x86_64.rpm
+`rpm -Uvh ServerView_RAID-7.9-1.el8.x86_64.rpm`
