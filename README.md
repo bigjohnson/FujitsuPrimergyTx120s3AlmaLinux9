@@ -40,3 +40,9 @@ install the pciutils
 then you can install the ServerView Raid Manager
 
 `rpm -Uvh ServerView_RAID-7.9-1.el8.x86_64.rpm`
+
+reboot, then you can access the Raid Manager from localhost at the url
+
+https://127.0.0.1:3173/svraid
+
+you can forward the port in ssh and connect it from remote client.
