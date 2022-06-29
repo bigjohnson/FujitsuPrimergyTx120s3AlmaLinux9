@@ -25,7 +25,7 @@ on the
 
 parameter end, and reinstall bootloader
 
-`sudo grub2-mkconfig -o $(sudo readlink -f /etc/grub2.cfg)`
+`grub2-mkconfig -o $(sudo readlink -f /etc/grub2.cfg)`
 
 ## ServerView Raid Manager
 
