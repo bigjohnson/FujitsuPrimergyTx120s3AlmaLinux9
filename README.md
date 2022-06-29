@@ -29,7 +29,15 @@ parameter end, and reinstall bootloader
 
 ## ServerView Raid Manager
 
-Download the ServerView_RAID installer for Red Hat 8 el8.x86_64
+Download the ServerView_RAID installer for Red Hat 8 el8.x86_64 
+
+**ServerView RAID Manager installation package for Linux Red Hat EL8**
+
+from
+
+https://support.ts.fujitsu.com/prim_supportcd/SVSSoftware/html/ServerViewRaid_e.html
+
+if you find the EL9 version you can try it, actually there is only EL8
 
 install the init scripts
 
