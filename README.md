@@ -11,7 +11,7 @@ You need add
 
 at the end of installer kernel parameters, you can edit it pressing tab key at the bootloader installer menu.
 
-After installation you cannot use the video, you must have ssh access to the server an add the
+After installation you cannot use the video, you must have ssh access to the server an as root add the
 
 `vga=791`
 
@@ -23,7 +23,9 @@ on the
 
 `GRUB_CMDLINE_LINUX="vga=791"`
 
-parameter end.
+parameter end, and reinstall bootloader
+
+`sudo grub2-mkconfig -o $(sudo readlink -f /etc/grub2.cfg)`
 
 ## ServerView Raid Manager
 
