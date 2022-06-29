@@ -3,7 +3,7 @@ Note on Alma Linux 9 installation on **Fujitsu Primergy TX120 S3** server.
 
 ## Graphics card
 
-The video card resolution is not detectable by installer linux kernel and installed linux kernel at the installation end.
+The video card resolution is not detectable by installer linux kernel, during installation, and installed linux kernel, at the installation end.
 
 You need add
 
